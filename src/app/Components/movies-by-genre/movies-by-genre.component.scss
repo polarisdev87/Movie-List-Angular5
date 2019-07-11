@@ -1,0 +1,21 @@
+.back-to-movies {
+  margin: 1rem 0;
+
+  @media screen and (min-width: 748px) {
+    margin: 2rem 0;
+  }
+
+  > a {
+    color: #9C27B0;
+    font-size: 16px;
+    text-decoration: none;
+
+    @media screen and (min-width: 748px) {
+      font-size: 22px;
+    }
+  }
+
+  .material-icons {
+    vertical-align: middle;
+  }
+}
